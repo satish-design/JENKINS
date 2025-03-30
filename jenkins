@@ -19,3 +19,9 @@ sudo dnf install java-17-amazon-corretto-devel
  
 sudo yum install jenkins
 
+sudo systemctl enable jenkins
+
+sudo systemctl start jenkins
+
+sudo systemctl status jenkins
+
