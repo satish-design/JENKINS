@@ -28,7 +28,7 @@ Step-1  Install Git in jenkins Sever (Command --> sudo yum install git -y)
 Step-2  Jenkins Dashboard --> FreeStyle Project --> Source Code Management --> O Git --> Repository URL & Credentials (Give This Info Here) -->Branches to build
 (Specify Github repo Branch) --> Apply & Save --> Build now 
 
-JENKINS INTEGRATION WITH MAVEN {DAY-3}
+JENKINS INTEGRATION WITH MAVEN {DAY-2}
 Step-1 Jenkins Dashboard --> Manage Jenkins --> Pulgins --> Availabale Pulgins --> Maven Integration plugin (Search & Install) .
 Step-2 Jenkins Dashboard --> Manage Jenkins --> Tools --> Maven installations (Scroll Down) --> Name & Version (Add) --> Apply & Save 
 Step-3 Jenkins Dashboard --> FreeStyle Project --> Build Steps --> Build Steps --> Invoke top-level Maven targets --> Maven Version & Goals (Specify here) --> Build now 
