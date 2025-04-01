@@ -33,4 +33,7 @@ Step-1 Jenkins Dashboard --> Manage Jenkins --> Pulgins --> Availabale Pulgins -
 Step-2 Jenkins Dashboard --> Manage Jenkins --> Tools --> Maven installations (Scroll Down) --> Name & Version (Add) --> Apply & Save 
 Step-3 Jenkins Dashboard --> FreeStyle Project --> Build Steps --> Build Steps --> Invoke top-level Maven targets --> Maven Version & Goals (Specify here) --> Build now 
  
-
+JENKINS INTEGRATION WITH SONARQUBE SERVER {DAY-2}
+Step-1 Jenkins Dashboard --> Manage Jenkins --> Pulgins --> Availabale Pulgins --> SonarQube Scanner for Jenkins (Search & Install)
+Step-2 Jenkins Dashboard --> Manage Jenkins --> Tools --> SonarQube Scanner installations --> Select versions 
+Step-3 Jenkins Dashboard --> Manage Jenkins --> System --> SonarQube servers --> Environment variables --> Name & Server URL & Server authentication token --> Save 
