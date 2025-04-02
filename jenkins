@@ -59,3 +59,8 @@ Step-3 Jenkins Dashboard >>>> Manage Jenkins >>>>
 System >>>> SonarQube servers >>>>
 Environment variables >>>> Name & Server URL & Server authentication token >>>>
 (Specify Goal : clean install sonar:sonar) Save & Apply . 
+
+DEVOPS PROJECT-1 WITH JENKINS 
+
+Step-1 : Jenkins Dashboard >>>> New Item >>>> Freestyle Project>>>>
+
