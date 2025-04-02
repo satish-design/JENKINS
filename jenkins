@@ -64,3 +64,10 @@ DEVOPS PROJECT-1 WITH JENKINS
 
 Step-1 : Jenkins Dashboard >>>> New Item >>>> Freestyle Project>>>>
 
+Step-2 : Integrate GitHub by using GitHub Repository Details 
+
+Step-3 : Integrate Maven and give goal as (clean install)
+
+Step-4 : Inetgrate SonarQube and give goal as (clean install sonar:sonar) 
+
+Step-5 : Apply & Save Finally Click on Build Now and Click on Console OutPut .
