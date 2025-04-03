@@ -60,7 +60,7 @@ System >>>> SonarQube servers >>>>
 Environment variables >>>> Name & Server URL & Server authentication token >>>>
 (Specify Goal : clean install sonar:sonar) Save & Apply . 
 
-DEVOPS PROJECT-1 WITH JENKINS 
+DEVOPS PROJECT-1 WITH JENKINS (DAY-3)
 
 Step-1 : Jenkins Dashboard >>>> New Item >>>> Freestyle Project>>>>
 
@@ -71,3 +71,11 @@ Step-3 : Integrate Maven and give goal as (clean install)
 Step-4 : Inetgrate SonarQube and give goal as (clean install sonar:sonar) 
 
 Step-5 : Apply & Save Finally Click on Build Now and Click on Console OutPut .
+
+DEVOPS PROJECT-2 WITH JENKINS ---- {SCRIPTED WAY PIPELINE} (DAY-3)
+
+Step-1 : Jenkins Dahboard >>>> New Item >>>> Pipeline 
+
+Step-2 : Configure >>>> Pipeline >>>> Defination >>>> Pipeline script 
+
+Step-3 : Write a script >>>> apply & save >>>> Build Now 
