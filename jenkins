@@ -79,3 +79,13 @@ Step-1 : Jenkins Dahboard >>>> New Item >>>> Pipeline
 Step-2 : Configure >>>> Pipeline >>>> Defination >>>> Pipeline script 
 
 Step-3 : Write a script >>>> apply & save >>>> Build Now 
+
+DEVOPS PROJECT-3 WITH JENKINS ---- {DECLARATIVE WAY PIPELINE} (DAY-3)
+
+Step-1 : Jenkins Dahboard >>>> New Item >>>> Pipeline 
+
+Step-2 : Configure >>>> Pipeline >>>> Defination >>>> Pipeline script 
+
+Step-3 : Write a script >>>> apply & save >>>> Build Now 
+
+
