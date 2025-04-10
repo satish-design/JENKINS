@@ -23,7 +23,7 @@ sudo systemctl start jenkins
 
 sudo systemctl status jenkins
 
-JENKINS INTEGRATION WITH GITHUB {DAY-2}
+ ((((( JENKINS INTEGRATION WITH GITHUB {DAY-2} )))))
 Step-1  Install Git in jenkins Sever (Command --> sudo yum install git -y)
 
 Step-2  Jenkins Dashboard >>>>
@@ -33,7 +33,7 @@ O Git >>>> Repository URL & Credentials (Give This Info Here) >>>>
 Branches to build
 (Specify Github repo Branch) >>>> Apply & Save >>>> Build now 
 
-JENKINS INTEGRATION WITH MAVEN {DAY-2}
+((((( JENKINS INTEGRATION WITH MAVEN {DAY-2} )))))
 Step-1 Jenkins Dashboard >>>> Manage Jenkins >>>>
 Pulgins >>>> Availabale Pulgins >>>>
 Maven Integration plugin (Search & Install) .
@@ -47,7 +47,7 @@ Build Steps >>>> Build Steps >>>>
 Invoke top-level Maven targets >>>>
 Maven Version & Goals (Specify here) >>>> Build now .
  
-JENKINS INTEGRATION WITH SONARQUBE SERVER {DAY-2}
+((((((JENKINS INTEGRATION WITH SONARQUBE SERVER {DAY-2})))))
 Step-1 Jenkins Dashboard >>>> Manage Jenkins >>>> 
 Pulgins >>>> Availabale Pulgins >>>>
 SonarQube Scanner for Jenkins (Search & Install)
@@ -60,7 +60,7 @@ System >>>> SonarQube servers >>>>
 Environment variables >>>> Name & Server URL & Server authentication token >>>>
 (Specify Goal : clean install sonar:sonar) Save & Apply . 
 
-DEVOPS PROJECT-1 WITH JENKINS (DAY-3)
+((((( DEVOPS PROJECT-1 WITH JENKINS (DAY-3) ))))))
 
 Step-1 : Jenkins Dashboard >>>> New Item >>>> Freestyle Project>>>>
 
@@ -72,7 +72,7 @@ Step-4 : Inetgrate SonarQube and give goal as (clean install sonar:sonar)
 
 Step-5 : Apply & Save Finally Click on Build Now and Click on Console OutPut .
 
-DEVOPS PROJECT-2 WITH JENKINS ---- {SCRIPTED WAY PIPELINE} (DAY-3)
+(((( DEVOPS PROJECT-2 WITH JENKINS ---- {SCRIPTED WAY PIPELINE} (DAY-3) ))))
 
 Step-1 : Jenkins Dahboard >>>> New Item >>>> Pipeline 
 
@@ -80,12 +80,28 @@ Step-2 : Configure >>>> Pipeline >>>> Defination >>>> Pipeline script
 
 Step-3 : Write a script >>>> apply & save >>>> Build Now 
 
-DEVOPS PROJECT-3 WITH JENKINS ---- {DECLARATIVE WAY PIPELINE} (DAY-3)
+(((( DEVOPS PROJECT-3 WITH JENKINS ---- {DECLARATIVE WAY PIPELINE} (DAY-3) ))))
 
 Step-1 : Jenkins Dahboard >>>> New Item >>>> Pipeline 
 
 Step-2 : Configure >>>> Pipeline >>>> Defination >>>> Pipeline script 
 
 Step-3 : Write a script >>>> apply & save >>>> Build Now 
+
+(((((( JENKINS MASTER-SLAVE CONCEPT IN DEVOPS ))))))
+
+* MASTER("CONTROLLER") 
+This is the main Jenkins Server. It handles the web interface , Job scheduling ,Dispatching builds to slaves(AGENTS), Monitoring slaves (AGENTS), 
+Collecting Build Results .
+
+* SLAVE ("AGENT")
+-> These are the other servers connected to master 
+-> These are only active when a job is assigned to them.
+
+EXAMPLE : IMAGINES JENKINS IS A MANAGER IN AN OFFICE :
+-> The Manager(MASTER) give out tasks(JOBS) to employees(SLAVE/AGENTS)
+-> Employees do the actual work .
+-> The Manager just assign tasks and checks if they are done .
+
 
 
